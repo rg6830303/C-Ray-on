@@ -4,7 +4,7 @@ Currently only sphere is supported, but more shapes to be added soon.
 
 ## Usage
 Built using C11 on Windows but should also run on Linux.
-Run `make`
+Run `make`.
 
 ## Outputs
 ### Light faces the sphere head on
