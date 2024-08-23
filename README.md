@@ -3,7 +3,7 @@ A 3-D Ray Tracer built using C which relies on Lambertian Reflectance Model to i
 Currently only sphere is supported, but more shapes to be added soon.
 
 ## Usage
-Built using Windows but should also run on Linux.
+Built using C11 on Windows but should also run on Linux.
 Run `make`
 
 ## Outputs
