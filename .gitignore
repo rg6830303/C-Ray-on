@@ -54,3 +54,4 @@ dkms.conf
 
 obj
 *.ppm
+misc.c
