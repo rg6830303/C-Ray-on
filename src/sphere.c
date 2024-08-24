@@ -18,3 +18,22 @@ int intersect_ray_sphere(Ray ray, Sphere sphere, float *t1, float *t2) {
         return 1;
     }
 }
+int intersect_ray_spheres(Ray ray, Sphere* spheres, int sphere_count, float *t, Sphere *output) {
+    float result = INFINITY;
+    Sphere temp_output;
+    for(int i = 0; i < sphere_count; i++) {
+        float t1;
+        float t2;
+        if(intersect_ray_sphere(ray, spheres[i], &t1, &t2)) {
+            float temp = t1 < t2 ? t1: t2;
+            if(temp < result) {
+                result = temp;
+                temp_output = spheres[i];
+            }
+        }
+    }
+    if(result == INFINITY) return 0;
+    *t = result;
+    *output = temp_output;
+    return 1;
+}
