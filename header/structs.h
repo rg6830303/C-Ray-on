@@ -24,4 +24,8 @@ typedef struct {
     Vector3 direction;
 } Camera;
 
+typedef struct {
+    Sphere* spheres;
+} Scene;
+
 #endif
