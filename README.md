@@ -7,13 +7,16 @@ Built using C11 on Windows but should also run on Linux.
 Run `make`.
 
 ## Outputs
-### Light faces the sphere head on
-![Light faces the sphere head on](assets/forwardfacing.jpg)
+### Light on the face, non-overlapping
+![Light on the face, non-overlapping](assets/forwardfacingnonoverlapping.jpg)
 
-### Light is above and to the side
-![Light is above and to the side](assets/aboveside.jpg)
+### Light on the right side, non-overlapping
+![Light on the right side, non-overlapping](assets/lighttotherightnonoverlapping.jpg)
 
-### Light is above and to the front
-![Light is above and to the front](assets/abovefront.jpg)
+### Light on the left side, non-overlapping
+![Light on the left side, non-overlapping](assets/lighttotheleftnonoverlapping.jpg)
+
+### Light on the right side, overlapping
+![Light on the right side, overlapping](assets/lighttotherightoverlapping.jpg)
 
 
